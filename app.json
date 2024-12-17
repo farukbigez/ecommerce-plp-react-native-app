@@ -1,7 +1,7 @@
 {
   "expo": {
     "name": "ecommerce-plp-react-native-app",
-    "slug": "ecommerce-plp-react-native-app",
+    "slug": "ecommerce-plp-app",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "https://db5nh1xljxisr.cloudfront.net/eyJidWNrZXQiOiJsb25jYXBhemFyIiwia2V5Ijoid2Vic2l0ZS9hc3NldHMvbG9nby5zdmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjo0NDAuMDAwMDAwMDAwMDAwMDZ9LCJyb3RhdGUiOm51bGwsInJvdW5kQ3JvcCI6ZmFsc2UsImZvcm1hdCI6ImF2aWYifX0=",
@@ -9,7 +9,8 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "y"
     },
     "android": {
       "adaptiveIcon": {
@@ -36,6 +37,11 @@
     ],
     "experiments": {
       "typedRoutes": true
+    },
+    "extra": {
+      "eas": {
+        "projectId": "a68178e6-7d8f-49e7-94ab-b5e104d6c14d"
+      }
     }
   }
 }
