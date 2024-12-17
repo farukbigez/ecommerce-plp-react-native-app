@@ -1,0 +1,41 @@
+{
+  "expo": {
+    "name": "ecommerce-plp-react-native-app",
+    "slug": "ecommerce-plp-react-native-app",
+    "version": "1.0.0",
+    "orientation": "portrait",
+    "icon": "https://db5nh1xljxisr.cloudfront.net/eyJidWNrZXQiOiJsb25jYXBhemFyIiwia2V5Ijoid2Vic2l0ZS9hc3NldHMvbG9nby5zdmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjo0NDAuMDAwMDAwMDAwMDAwMDZ9LCJyb3RhdGUiOm51bGwsInJvdW5kQ3JvcCI6ZmFsc2UsImZvcm1hdCI6ImF2aWYifX0=",
+    "scheme": "myapp",
+    "userInterfaceStyle": "automatic",
+    "newArchEnabled": true,
+    "ios": {
+      "supportsTablet": true
+    },
+    "android": {
+      "adaptiveIcon": {
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#ffffff"
+      }
+    },
+    "web": {
+      "bundler": "metro",
+      "output": "static",
+      "favicon": "./assets/images/favicon.png"
+    },
+    "plugins": [
+      "expo-router",
+      [
+        "expo-splash-screen",
+        {
+          "image": "https://db5nh1xljxisr.cloudfront.net/eyJidWNrZXQiOiJsb25jYXBhemFyIiwia2V5Ijoid2Vic2l0ZS9hc3NldHMvbG9nby5zdmciLCJlZGl0cyI6eyJyZXNpemUiOnsiZml0IjoiY29udGFpbiIsIndpZHRoIjo0NDAuMDAwMDAwMDAwMDAwMDZ9LCJyb3RhdGUiOm51bGwsInJvdW5kQ3JvcCI6ZmFsc2UsImZvcm1hdCI6ImF2aWYifX0=",
+          "imageWidth": 200,
+          "resizeMode": "contain",
+          "backgroundColor": "#ffffff"
+        }
+      ]
+    ],
+    "experiments": {
+      "typedRoutes": true
+    }
+  }
+}
